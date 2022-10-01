@@ -1,0 +1,124 @@
+
+                             MODULE: 3 (HTML 5)
+
+(1)What are the new tags added in HTML5? 
+---->As we know that HTML5 is a new version of HTML ( Hypertext markup language). HTML5 introduced many new 
+     tags that will benefit many developers. These tags are generally supported by all major browsers. 
+     These tags belong to many aspects such as graphics, media, and forms.
+
+     <article>-->Represents an independent piece of content of a document, such as a blog entry or newspaper article
+     <aside >-->Represents a piece of content that is only slightly related to the rest of the page
+     <audio>-->Defines an audio file.
+     <canvas>-->This is used for rendering dynamic bitmap graphics on the fly, such as graphs or games.
+     <command>-->Represents a command the user can invoke.
+     <datalist>-->Together with the new list attribute for input can be used to make comboboxes
+     <details>-->Represents additional information or controls which the user can obtain on demand
+     <embed>-->Defines external interactive content or plugin.
+     <figure>-->Represents a piece of self-contained flow content, typically referenced as a single unit 
+                from the main flow of the document.
+     <footer>-->Represents a footer for a section and can contain information about the author,
+               copyright information, et cetera.
+
+     <header>-->Represents a group of introductory or navigational aids.
+     <hgroup>-->Represents the header of a section.
+     <keygen>-->Represents control for key pair generation.
+     <mark>-->Represents a run of text in one document marked or highlighted for reference purposes,
+              due to its relevance in another context.
+
+     <meter>-->Represents a measurement, such as disk usage.
+     <nav>-->Represents a section of the document intended for navigation.
+     <output>-->Represents some type of output, such as from a calculation done through scripting
+     <progress>-->Represents a completion of a task, such as downloading or when performing a series
+                  of expensive operations.
+      <ruby>-->Together with <rt> and <rp> allow for marking up ruby annotations.
+      <section>-->Represents a generic document or application section
+      <time>-->Represents a date and/or time.
+      <video>-->Defines a video file.
+       <wbr>-->Represents a line break opportunity.
+
+
+(2)How to embed audio and video in a webpage? 
+---->Audio and video can help to add interactive content to your website.
+     Good part is that HTML5 offers easy way to embed audio and video files. 
+     It has a default player and most modern browsers support HTML player. In this article,
+     we will explain how to embed audio and video files using HTML5.
+
+        Audio
+
+      To embed audio in HTML, we use the <audio> tag. Before HTML5, audio cannot be 
+      added to web pages in the Internet Explorer era. To play audio, we used web plugins like Flash.
+     After the release of HTML5, it is possible. This tag supports Chrome, Firefox, Safari, Opera, and Edge in three
+     audio formats – MP3, WAV, OGG. Only Safari browser doesn’t support OGG audio format.
+
+      Syntax:
+      <audio>
+           <source src="file_name" type="audio_file_type">
+      </audio>
+
+
+      Video
+
+    
+       To embed video in HTML, we use the <video> tag. It contains one or more video sources
+       at a time using <source> tag. It supports MP4, WebM, and Ogg 
+       in all modern browsers. Only Ogg video format doesn’t support in Safari browser. 
+
+     
+      Syntax:
+
+   
+      <video>
+         <source src="file_name" type="video_file_type">
+      </video>
+
+
+(3)Semantic element in HTML5? 
+--->Semantic Elements: Semantic elements have meaningful names which tells about type of content.
+     For example header, footer, table, … etc. HTML5 introduces many semantic elements as mentioned 
+     below which make the code easier to write and understand for the developer as well as instructs the browser on how to treat them. 
+ 
+
+    - article
+    - aside
+    - details
+    - figcaption
+    - figure
+    - footer
+    - header
+    - main
+    - mark
+    - nav
+    - section
+
+(4)Canvas and SVG tags.
+--->
+     Canvas
+
+    HTML5 element <canvas> gives you an easy and powerful way to draw graphics using JavaScript. It can be used to draw graphs,
+    make photo compositions or do simple (and not so simple) animations.
+
+    Here is a simple <canvas> element which has only two specific attributes width and height plus all
+    the core HTML5 attributes like id, name and class, etc
+   
+    <canvas id = "mycanvas" width = "100" height = "100"></canvas>
+
+    You can easily find that <canvas> element in the DOM using getElementById() method as follows −
+
+     var canvas = document.getElementById("mycanvas");
+
+
+    SVG
+
+ 
+    SVG stands for Scalable Vector Graphics and it is a language for describing 2D-graphics 
+    and graphical applications in XML and the XML is then rendered by an SVG viewer.
+
+    SVG is mostly useful for vector type diagrams like Pie charts, Two-dimensional graphs in an X,Y coordinate system etc.
+
+   Embedding SVG in HTML5
+
+    HTML5 allows embedding SVG directly using <svg>...</svg> tag which has following simple syntax −
+
+       <svg xmlns = "http://www.w3.org/2000/svg">
+           ...    
+       </svg>
