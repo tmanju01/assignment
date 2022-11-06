@@ -1,0 +1,469 @@
+MODULE: 2 (CSS and CSS 3)
+
+
+(1)What are the benefits of using CSS? 
+--->CSS plays an important role, by using CSS you simply got to specify a repeated style for element once 
+    & use it multiple times as because CSS will automatically apply the required styles.
+
+    -The main advantage of CSS is that style is applied consistently across variety of sites.
+    One instruction can control several areas which is advantageous.
+
+   -Web designers needs to use few lines of programming for every page improving site speed.
+
+   -Cascading sheet not only simplifies website development, but also simplifies the maintenance 
+    as a change of one line of code affects the whole web site and maintenance time.
+
+   -It is less complex therefore the effort are significantly reduced.
+   -It helps to form spontaneous and consistent changes.
+
+   -CSS changes are device friendly. With people employing a batch of various range of smart
+    devices to access websites over the web, there’s a requirement for responsive web design.
+
+   -It has the power for re-positioning. It helps us to determine the changes within
+    the position of web elements who are there on the page.
+
+    -These bandwidth savings are substantial figures of insignificant tags that are indistinct 
+     from a mess of pages.
+
+     -Easy for the user to customize the online page
+      -It reduces the file transfer size.
+
+(2)What are the disadvantages of CSS? 
+--->CSS, CSS 1 up to CSS3, result in creating of confusion among  web browsers.
+
+   -With CSS, what works with one browser might not always work with another. The
+   web developers need to test for compatibility, running the program across multiple browsers.
+
+   -There exists a scarcity of security.
+   -After making the changes we need to confirm the compatibility if they appear. 
+    The similar change affects on all the browsers.
+
+    -The programing language world is complicated for non-developers and beginners. Different 
+     levels of CSS i.e. CSS, CSS 2, CSS 3 are often quite confusing.
+
+    -Browser compatibility (some styles sheet are supported and some are not).
+     CSS works differently on different browsers. IE and Opera supports CSS as different logic.
+
+    -There might be cross-browser issues while using CSS.
+     -There are multiple levels which creates confusion for non-developers and beginners.
+
+(3)What is the difference between CSS2 and CSS3?
+--->CSS3 is split into many various documents known as Modules. each module 
+    adds new capability or extends options outlined in CSS2 over conserving backward compatibility. Work on 
+    CSS3 started around the time of publication of the initial CSS2 recommendation.
+
+    -The CSS3 version supports more browsers than CSS2.
+   -CSS3 introduces several new selectors. Those new selectors square measure largely in an 
+    exceeding type of pseudo-elements and pseudo-categories.
+   
+    -The new addition of General relation Combinator will be wont to match relation parts
+      of a given part through diacritic (~) combinator.
+
+     -CSS3 introduces several properties attended with new values and units.
+      It facilitates styling of backgrounds, borders, boxes, etc…, that permits the 
+      USA to stay most of the styling at intervals the computer network and HTML standards and our document, 
+      while not a necessity for all those proprietary third-party package packages.
+
+       -New values and new units square measure introduced to support all those new properties. for example,
+       Angle units deg, grad, rad, and switch or Time units s and ms
+
+
+(4) Name a few CSS style components?
+--->The first part of a CSS rule is the selector - this encapsulates the set of elements to which the 
+      rule applies. Typically this will be an ID selector - #element-id, a class selector - .class-name,
+     an element selector - div/section/whatever, or something more complex involving hierarchy or location -
+    :first-child perhaps.
+
+     -Next, enclosed within a pair of curly braces, comes the rule-set. This is one or more rules
+      which apply a particular style to the element(s) matched by the selector.
+
+(5)What do you understand by CSS opacity?
+--->The CSS opacity property is used to specify the transparency of an element. In simple word, 
+    you can say that it specifies the clarity of the image.
+
+    -In technical terms, Opacity is defined as degree in which light is allowed to travel through an object.
+
+
+(6)How can the background color of an element be changed?
+--->You can change the background color of an HTML element using the background-color CSS property 
+    and giving it a value of a color.
+
+        p {
+             background-color: pink;
+          }
+           With this code, the paragraphs are given a pink background.
+   For example, this code will make all paragraph elements in your
+   HTML file have a pink background because the
+   background-color property has a value of pink.
+
+
+(7)How can image repetition of the backup be controlled? 
+--->we will see how an image repetition of the backup is controlled in CSS.
+    This task can be achieved by using the background-repeat property that will help 
+     us to control the repetition of the image.
+
+    -The background-repeat property in CSS is used to repeat the background image
+      both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+   Syntax:
+
+            background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
+
+(8)What is the use of the background-position property? 
+--->The background-position property in CSS is mainly used to sets the initial
+     position for the background image ie., it is used to set an image at a certain 
+     position. The position that is relative to the positioning layer, can be set by using
+     the background-origin property.
+
+   Syntax:
+
+        background-position: value;
+
+    background-position: left top;: This property is used to set the image at the left top.   
+
+(9)Which property controls the image scroll in the background? 
+---> we will discuss the property that is used to control the scrolling of an 
+     image in the background. The background-attachment property in CSS is used to 
+     specify the kind of attachment of the background image with respect to its container.
+     It can be set to scroll or make it remain fixed. It can be applied to all HTML elements.
+
+    Syntax:
+
+       background-attachment: scroll|fixed|local|initial|inherit;
+
+(10)Why should background and color be used as separate properties? 
+---> The background property is a complex property in CSS, and if it is 
+      combined with color, the complexity will further increase.
+      Color is an inherited property while the background is not.
+
+(11)How to center block elements using CSS1?
+--->To center the block-level elements, we need to set the margin-right
+     and margin-left properties to explicit values.
+
+(12)How to maintain the CSS specifications? 
+--->The Specification defines how CSS properties should be implemented by browser
+     vendors along with detailed algorithms, code samples and tabular information.
+
+    The Specification also include:
+
+          The syntax and data types of the language
+          Detailed explanation on CSS Selectors
+          How you can assign values to properties
+          The Cascade (the "C" in CSS)
+          How inheritance works
+          The Box Model e.t.c
+
+       -The CSS Specification prior to CSS3 was a single Specification, CSS3 on
+        the other hand is divided into Modules which are Independent Specifications that 
+        can be worked on by different author(s) at different paces, that's why we have Selector
+        Level 3 Specification, CSS Color 4, CSS Backgrounds and so on. Some of these modules are 
+        revisions of CSS2.1, and some are newly created, but all fall under the banner of CSS3.
+
+
+(13)What are the ways to integrate CSS as a web page? 
+--->There are lots of websites available over the web with ideal elements.
+    Visitors focus on different matters to visit the website and gain a fantastic 
+    experience. Style and interaction allow a website to stand from the rest.
+    A web page with proper technique is easy to display on the browser. 
+    Style plays an essential role in building a well-designed site.
+    Cascading style sheets are the most popular web markup language.
+
+    -It is a suitable asset for web designers and developers to improve the
+     overall appearance and look. CSS is an excellent choice for professionals to 
+    define layout, style, and position components. If you want to add style to the 
+    web page, you can opt for CSS. You may also work with reputable experts well-known 
+     in the language. The browser reads the style sheet and arranges the page as per codes in files.
+
+(14)What is embedded style sheets? 
+---> It allows you to define styles for a particular HTML document as a whole in 
+    one place. This is done by embedding the <style></style> tags containing the CSS
+    properties in the head of your document.Embedded style sheets are particularly 
+   useful for HTML documents that have unique style requirements from the rest of the
+   documents in your project. However, if the styles need to be applied across multiple
+   documents, you should link to an external style sheet instead of using individual embedded 
+   style sheets. Using embedded stylesheets holds a distinct advantage over inline styles which
+   only allow you to address one HTML element at a time. 
+
+        Syntax: The CSS syntax for embedded style sheets is exactly the same as other CSS code,
+                apart from the fact that it is now wrapped within the <style></style> tags. The <style>
+                tag takes the ‘type’ attribute that defines the type of style sheet being used (ie. text/CSS). 
+
+(15)What are the external style sheets?
+--->An external style sheet is a separate file where you can declare all the styles
+   that you want to use on your website. You then link to the
+   external style sheet from all your HTML pages.
+
+   -This means you only need to set the styles for each element once. If you want to
+    update the style of your website, you only need to do it in one place.
+
+    -Type CSS code into a plain text file, and save with a .css extension (for example, styles.css).
+    -Add the following code between the <head></head> tags of all HTML documents that you want to
+     reference the external style sheet. This code uses the HTML <link> element to link to the
+      external style sheet.
+
+         <link rel="stylesheet" href="styles.css">
+
+(16)What are the advantages and disadvantages of using external style sheets? 
+--->
+   The advantages of External Style Sheets are:
+
+      - Using them, the styles of multiple documents can be controlled from one file.
+      - Classes can be created for use on multiple HTML element types in many documents.
+      - In complex situations, selector and grouping methods can be used to apply styles.
+
+   The disadvantages of External Style Sheets are:
+
+     - In order to import style information for each document, an extra download is needed.
+     - Until the external style sheet is loaded, it may not be possible to render the document.
+     - For small number of style definitions, it is not viable.
+
+(17)What is the meaning of the CSS selector? 
+--->There are several different types of selectors:
+
+     type selectors – matching a specific element
+     class selectors – matching elements with a specific class
+     ID selectors – matching the element with a specific ID
+     descendant selectors – matching elements that are descendants of a specific element
+     child selectors – matching elements that are a child of the specific element
+     universal selectors – matching any element
+     adjacent sibling selectors – matching elements immediately preceded by a specific element
+     attribute selectors – matching elements with a specific attribute or attribute value
+     pseudo-class selectors – matching elements with a specific pseudo-class
+     pseudo-element selectors – matching elements with specific pseudo-element properties
+
+
+(18)What are the media types allowed by CSS? 
+--->                            Media Type               	Description
+                                  all	           Used for all media type devices
+                                  aural        	   Used for speech and sound synthesizers
+                                  braille	    Used for braille tactile feedback devices
+                                  embossed	    Used for paged braille printers
+                                 handheld	    Used for small or handheld devices
+                                   print	    Used for printers
+                                  projection	    Used for projected presentations, like slides
+                                  screen	            Used for computer screens
+                                   tty	            Used for media using a fixed-pitch character grid, like teletypes and terminals
+                                  tv	            Used for television-type devices
+
+(19)What is the rule set? 
+--->A CSS rule consists of a selector and a declaration block. The selector points to the HTML element you want to style. The declaration 
+    block contains one or more declarations separated by semicolons.
+
+
+(20)Create Layouts 
+--->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layouts</title>
+	<style>
+		*{box-sizing: border-box;}
+		.main{
+			height: 570px;
+			width: 77%;
+			background: #d3d3d32b;
+			padding: 10px;
+			margin: 25px auto;
+			padding-right: 30px;
+		}
+		.content{
+			height: 250px;
+			width: 100%;
+			/*background: blue;*/
+			display: flex;
+
+      margin: 15px;
+      margin-bottom: 20px;
+
+		}
+		.content .p1{
+			height: 250px;
+		    border: 1px solid #8080802b;
+		   
+			width: 33.33%;
+			/*background: red; */
+			margin: 10px;
+
+		}
+		.content .p1 .x{
+			height: 125px;
+			width: 100%;
+			background: gray;
+			color: white;
+			text-align: center;
+			line-height: 125px;
+			font-size: 20px;		}
+
+		  .content .p1 .y{
+			height: 125px;
+			width: 100%;
+			background:white;
+			padding-top: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+
+
+		}
+		   .content .p1 .y button{
+			margin-top: 20px;
+			border: 1px solid black;
+			background: white;
+			height: 30px;
+			width: 75px;
+		}
+
+		.content .p2{
+			height: 250px;
+			width: 33.33%;
+			background: darkorange; 
+		}
+		.content .p3{
+			height: 250px;
+			width: 33.33%;
+			background: yellow; 
+		}
+
+       .content1{
+			height: 250px;
+			width: 100%;
+			/*background: red;*/
+			display: flex;
+             margin: 15px;
+
+
+		}
+		.content1 .pp1 .x{
+
+			height: 125px;
+			width: 100%;
+			background:gray;
+			color: white;
+			text-align: center;
+			line-height: 125px;
+			font-size: 20px;
+
+					}
+		  .content1 .pp1 .y{
+
+			height: 125px;
+			width: 100%;
+			background:white;
+			padding-top: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+
+
+		}
+		   .content1 .pp1 .y button{
+			margin-top: 20px;
+			border: 1px solid black;
+			background: white;
+			height: 30px;
+			width: 75px;
+		}
+		.content1 .pp1{
+			height: 250px;
+			width: 33.33%;
+			/*background: red;*/
+			margin: 10px; 
+			 border: 1px solid #8080802b;
+
+		}
+		
+	</style>
+</head>
+<body>
+
+<div class="main">
+	<div class="content">
+     <div class="p1">
+     	<div class="x">
+     	 Thumbnail</div>
+     	<div class="y">
+     		This is a wider card with supporting text<br>
+     		below as anatural lead in to additional<br>
+     		content.This  content is a little bit longer.
+     		<br>
+     	<button>view</button>
+     	<button>edit</button>
+
+     </div>
+     </div>
+     <div class="p1">
+     	<div class="x">
+     	 Thumbnail</div>
+     	<div class="y">
+     		This is a wider card with supporting text<br>
+     		below as anatural lead in to additional<br>
+     		content.This  content is a little bit longer.
+     		<br>
+     	<button>view</button>
+     	<button>edit</button>
+
+     </div>
+     </div>
+     <div class="p1">
+     	<div class="x">
+     	 Thumbnail</div>
+     	<div class="y">
+     		This is a wider card with supporting text<br>
+     		below as anatural lead in to additional<br>
+     		content.This  content is a little bit longer.
+     		<br>
+     	<button>view</button>
+     	<button>edit</button>
+
+     </div>
+     </div>
+
+	
+	</div>
+
+	<div class="content1">
+		<div class="pp1">
+			<div class="x">
+     	 Thumbnail</div>
+     	<div class="y">
+     		This is a wider card with supporting text<br>
+     		below as anatural lead in to additional<br>
+     		content.This  content is a little bit longer.
+     		<br>
+     	<button>view</button>
+     	<button>edit</button>
+
+     </div>
+		</div>
+		<div class="pp1"> 
+			<div class="x">
+     	 Thumbnail</div>
+     	<div class="y">
+     		This is a wider card with supporting text<br>
+     		below as anatural lead in to additional<br>
+     		content.This  content is a little bit longer.
+     		<br>
+     	<button>view</button>
+     	<button>edit</button>
+
+     </div>
+		</div>
+		<div class="pp1">
+			<div class="x">
+     	 Thumbnail</div>
+     	<div class="y">
+     		This is a wider card with supporting text<br>
+     		below as anatural lead in to additional<br>
+     		content.This  content is a little bit longer.
+     		<br>
+     	<button>view</button>
+     	<button>edit</button>
+
+     </div>
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>
