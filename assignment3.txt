@@ -1,3 +1,4 @@
+
 MODULE: 2 (CSS and CSS 3)
 
 
@@ -126,6 +127,7 @@ MODULE: 2 (CSS and CSS 3)
      image in the background. The background-attachment property in CSS is used to 
      specify the kind of attachment of the background image with respect to its container.
      It can be set to scroll or make it remain fixed. It can be applied to all HTML elements.
+
 
     Syntax:
 
