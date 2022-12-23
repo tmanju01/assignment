@@ -120,5 +120,6 @@
     HTML5 allows embedding SVG directly using <svg>...</svg> tag which has following simple syntax −
 
        <svg xmlns = "http://www.w3.org/2000/svg">
+
            ...    
        </svg>
