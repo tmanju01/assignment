@@ -60,4 +60,56 @@
 
 
 (3)How to create slider with animation? 
---->
+---><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- <script src="02extjs_test.js"></script> -->
+    <style>
+.x{
+            height: 50px;
+            width: 100%;
+            background: brown;
+            margin-top: 100px;
+            border: 2px solid;
+            font-size: 25px;
+            padding-top: 15px;
+            
+         }
+         .ans
+        {
+            background: lightcoral;
+            border: 2px solid;
+            display: none;
+            height: 50px;
+            width: 100%;
+            padding-top: 15px;
+            font-size: 20px;
+        }
+ </style>
+</head>
+<body>
+ <div class="x">Question?</div>
+    <div class="ans">Answer</div>
+<script>
+        $(document).ready(function(){
+  $(".x").click(function(){
+    $('.ans').toggle();
+    $(".ans").animate({
+        
+      top: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '100%'
+    });
+  });
+});
+</script>
+    
+</body>
+
+</html>
